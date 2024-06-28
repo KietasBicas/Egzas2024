@@ -7,7 +7,7 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg" style="padding:15px; background-color: #EAEBEF;">
                 
                 <h1>Create New Post</h1>
 
@@ -33,9 +33,11 @@
                         <label for="content">Content:</label>
                         <textarea id="content" name="content">{{ old('content') }}</textarea>
                     </div>
-
+                    <br>
                     <div>
-                        <button type="submit">Create Post</button>
+                        <button type="submit" style="color:green">Create Post</button>
+                        <br>
+                        <button type=""><a href="/posts" style="color:red">Back</a></button>
                     </div>
                 </form>
 

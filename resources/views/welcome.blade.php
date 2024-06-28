@@ -28,10 +28,10 @@
                             <nav class="-mx-3 flex flex-1 justify-end">
                                 @auth
                                     <a
-                                        href="{{ url('/dashboard') }}"
+                                        href="{{ url('/products') }}"
                                         class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]"
                                     >
-                                        Dashboard
+                                        Product Page
                                     </a>
                                 @else
                                     <a
@@ -54,7 +54,7 @@
                         @endif
                     </header>
 
-                    <main class="mt-6">
+                    {{-- <main class="mt-6">
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                             <a
                                 href="https://laravel.com/docs"
@@ -160,11 +160,11 @@
                                 </div>
                             </div>
                         </div>
-                    </main>
+                    </main> --}}
 
-                    <footer class="py-16 text-center text-sm text-black">
+                    {{-- <footer class="py-16 text-center text-sm text-black">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </footer>
+                    </footer> --}}
                 </div>
             </div>
         </div>
